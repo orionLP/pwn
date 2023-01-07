@@ -1,0 +1,115 @@
+pdfinfo(1)                                                                             General Commands Manual                                                                             pdfinfo(1)
+
+NNAAMMEE
+       pdfinfo - Portable Document Format (PDF) document information extractor (version 3.03)
+
+SSYYNNOOPPSSIISS
+       ppddffiinnffoo [options] [_P_D_F_-_f_i_l_e]
+
+DDEESSCCRRIIPPTTIIOONN
+       PPddffiinnffoo prints the contents of the ´Info' dictionary (plus some other useful information) from a Portable Document Format (PDF) file.
+
+       If _P_D_F_-_f_i_l_e is ´-', it reads the PDF file from stdin.
+
+       The ´Info' dictionary contains the following values:
+
+              title
+              subject
+              keywords
+              author
+              creator
+              producer
+              creation date
+              modification date
+
+       In addition, the following information is printed:
+
+              custom metadata (yes/no)
+              metadata stream (yes/no)
+              tagged (yes/no)
+              userproperties (yes/no)
+              suspects (yes/no)
+              form (AcroForm / XFA / none)
+              javascript (yes/no)
+              page count
+              encrypted flag (yes/no)
+              print and copy permissions (if encrypted)
+              page size
+              file size
+              linearized (yes/no)
+              PDF version
+              metadata (only if requested)
+
+       The  options  -listenc,  -meta,  -js, -struct, and -struct-text only print the requested information. The 'Info' dictionary and related data listed above is not printed. At most one of these
+       five options may be used.
+
+OOPPTTIIOONNSS
+       --ff _n_u_m_b_e_r
+              Specifies the first page to examine.  If multiple pages are requested using the "-f" and "-l" options, the size of each requested page (and, optionally, the bounding  boxes  for  each
+              requested page) are printed.  Otherwise, only page one is examined.
+
+       --ll _n_u_m_b_e_r
+              Specifies the last page to examine.
+
+       --bbooxx   Prints the page box bounding boxes: MediaBox, CropBox, BleedBox, TrimBox, and ArtBox.
+
+       --mmeettaa  Prints document-level metadata.  (This is the "Metadata" stream from the PDF file's Catalog object.)
+
+       --ccuussttoomm
+              Prints custom and standard metadata.
+
+       --jjss    Prints all JavaScript in the PDF.
+
+       --ssttrruucctt
+              Prints the logical document structure of a Tagged-PDF file.
+
+       --ssttrruucctt--tteexxtt
+              Print the textual content along with the document structure of a Tagged-PDF file.  Note that extracting text this way might be slow for big PDF files.  (Implies --ssttrruucctt.)
+
+       --uurrll   Print  all  URLs in the PDF. Only the URL types supported by Poppler are listed.  Currently, this is limited to Annotations. Note: only URLs referenced by the PDF objects such as Link
+              Annotations are listed. pdfinfo does not attempt to extract strings matching http://... from the text content.
+
+       --iissooddaatteess
+              Prints dates in ISO-8601 format (including the time zone).
+
+       --rraawwddaatteess
+              Prints the raw (undecoded) date strings, directly from the PDF file.
+
+       --ddeessttss Print a list of all named destinations. If a page range is specified using "-f" and "-l", only destinations in the page range are listed.
+
+       --eenncc _e_n_c_o_d_i_n_g_-_n_a_m_e
+              Sets the encoding to use for text output. This defaults to "UTF-8".
+
+       --lliisstteenncc
+              Lits the available encodings
+
+       --ooppww _p_a_s_s_w_o_r_d
+              Specify the owner password for the PDF file.  Providing this will bypass all security restrictions.
+
+       --uuppww _p_a_s_s_w_o_r_d
+              Specify the user password for the PDF file.
+
+       --vv     Print copyright and version information.
+
+       --hh     Print usage information.  (--hheellpp and ----hheellpp are equivalent.)
+
+EEXXIITT CCOODDEESS
+       The Xpdf tools use the following exit codes:
+
+       0      No error.
+
+       1      Error opening a PDF file.
+
+       2      Error opening an output file.
+
+       3      Error related to PDF permissions.
+
+       99     Other error.
+
+AAUUTTHHOORR
+       The pdfinfo software and documentation are copyright 1996-2011 Glyph & Cog, LLC.
+
+SSEEEE AALLSSOO
+       ppddffddeettaacchh(1), ppddffffoonnttss(1), ppddffiimmaaggeess(1), ppddffttooccaaiirroo(1), ppddffttoohhttmmll(1), ppddffttooppppmm(1), ppddffttooppss(1), ppddffttootteexxtt(1) ppddffsseeppaarraattee(1), ppddffssiigg(1), ppddffuunniittee(1)
+
+                                                                                            15 August 2011                                                                                 pdfinfo(1)
