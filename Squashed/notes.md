@@ -34,5 +34,31 @@ Question: Why does a furniture app need to retrieve files and do calculations on
 
 # ITERATION 2
 
-The people at htb seem to try to scan all the ports (just in case), it seems as a good practice since i missed some services.
+The people at htb seem to try to scan all the ports (just in case), it seems as a good practice since i missed some open ports. Also, you can specify nmap speed (-T4 seems to do it) (which is quite needed).
 
+```{sh}
+
+nmap -p- --min-rate 1000 -T4 10.10.11.191
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-07 22:35 CET
+Nmap scan report for 10.10.11.191
+Host is up (0.040s latency).
+Not shown: 65527 closed ports
+PORT      STATE SERVICE
+22/tcp    open  ssh
+80/tcp    open  http
+111/tcp   open  rpcbind
+2049/tcp  open  nfs
+33769/tcp open  unknown
+40447/tcp open  unknown
+42635/tcp open  unknown
+55043/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 33.98 seconds
+
+```
+
+They usually do a more speedy scan to know which ports are active and then use a global variable to store them and do a full scan on them.
+# ITERATION 3
+
+It s
