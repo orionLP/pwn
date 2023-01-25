@@ -14,4 +14,11 @@ to specify tcp or udp protocol: -p U:[ports] T:[ports]
 
 to specify a minimum package/second: --min-rate [number]    	> the higher the more speedy
 
-to increase speed: -T[number]
+to increase speed: -T[number] in the range [1,5]
+
+
+# tips and tricks
+
+(types of scans)
+
+using -sT is slower than -sS and should be avoided

