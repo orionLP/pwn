@@ -1,5 +1,6 @@
 import argparse as arg
-import list_generators
+import list_generators as lg
+import senders
 import json
 
 class StoreDictPair(arg.Action):
@@ -20,7 +21,9 @@ def main() -> None:
     
     parser = create_input_parser()
     args = parser.parse_args()
-    
-    print(args)
+    list_generator = lg.create_generator(args.list_type)
+    sql_command_list = list_generator.generate_list()
+
+    print(sql_command_list)
 
 main()
