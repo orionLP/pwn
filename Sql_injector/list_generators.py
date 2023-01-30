@@ -1,23 +1,29 @@
 from typing import *
+from abc import ABC,abstractmethod
 
-class List_Generator:
+class List_Generator(ABC):
     '''List_Generator is the base class to all list generators in this file'''
-
+    
     basic_list: list[str]
-    post_list: list[str]
     
+    @abstractmethod
     def __init__(self) -> None:
-        raise NotImplementedError("You did not implement the init of some list generator")
+        pass
     
-    def generate_post_list(self) -> list[str]:
-        raise NotImplementedError("You did not implement the init of some list generator")
+    @abstractmethod
+    def generate_list(self) -> list[str]:
+        pass 
 
 class Logic_inverter(List_Generator):
     
     def __init__(self) -> None:
-        self.basic_list = [""]
+        self.basic_list = ["' OR 1=1", "'--"]
         self.post_list = []
     
-    def generate_post_list(self) -> list[str]:
-        ...
+    def generate_list(self) -> list[str]:
+        return self.basic_list
 
+def create_generator(type: str, **kargs: dict[Any]) -> List_Generator:
+    if type == 'logic':
+        return  Logic_inverter()
+    

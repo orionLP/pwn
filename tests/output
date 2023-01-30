@@ -1,0 +1,121 @@
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ echo "azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk" 
+
+
+
+
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ echo "azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk" > output
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "a?"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "[ab]"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "[ab]n"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "[ab]h"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "[a-c]h"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "[a-c]"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "[a-c]v"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "[^a-c]v"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "([a-c]v|[a-c]h)"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "([a-c]v|[a-c]h)*"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "([a-c]v|[a-c]h)?"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "([a-c]v|[a-c]h)?k"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "."
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "2."
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "2.3"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "\d"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "/\d/"
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "\d"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "(\d)"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "^z"
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "^a"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ echo "azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk a z" > output
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "^a"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk a z
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "$a"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk a z
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "a$"
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "$k"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk a z
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "k$"
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "k$k"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk a z
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "k$a"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk a z
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ echo "azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk a z \n abdul" > output(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output 
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk a z \n abdul
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ sudo nano output 
+[sudo] password for oriol: 
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "k$k"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk a z 
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "$k"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk a z 
+ abdul
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "k$"
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "$k"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk a z 
+ abdul
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "$l"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk a z 
+ abdul
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "$a"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk a z 
+ abdul
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "$s"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk a z 
+ abdul
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "a$"
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "k$"
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "l$"
+ abdul
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "z$"
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E " $"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk a z 
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ sudo nano output 
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "z$"
+azxcvbnmsdfghjkl;qwertyuiopaazzxxccvvbbnnmmssddffgghhjjkkllqqwweerrttyyuuiioopp?321891621122233343545455667789[}fdsahk a z
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "l$"
+ abdul
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ echo "hellothere hellobye" > output
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "hello(?=there)"
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "hello(?=there|bye)"
+hellothere hellobye
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "hello(?=bye)"
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ echo "hellothere" > output
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "hello(?=there)"
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "*"
+hellothere
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "hello(?=*)"
+hellothere
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "hello(?=t)"
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "hello(?=there)"
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ echo "hellothere" > output
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "hello(?=there)"
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ sudo nano output 
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "hello(?=there)"
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "hello(?=there)$"
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "hello(?=ther)$"
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "hello(?=ther)"
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "hello(?=the)"
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "hello(?=th)"
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "hello(?=t)"
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "hello"
+hellothere
+(base) oriol@oriol-Aspire-A515-56:~/Documents/GitHub/pwn/tests$ cat output | grep -E "hello(?=t)"
+hellothere
