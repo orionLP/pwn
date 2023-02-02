@@ -7,3 +7,8 @@ The following list contains link to useful web pages:
     <li>to search for exploits in general (there are some posts that can have useful information): https://www.hackerone.com/</li>
 </ol>
 
+Programs that are useful in searching for vulnerablities:
+
+<ol>
+    <li>to search in a personal database: searchsploit</li>
+</ol>
