@@ -2,6 +2,8 @@
 
 to specify that the line starts with [expression] : "^expression"
 
+to specify that a special character is actually a normal expression: "\CHARACTER"
+
 to specify a range of values or letters in a position (character class): "[start-end]"  Note: if the hyphen (-) is at the start or end of the expression it is taken as the languages with a hypen at that point: ex: [-a] : -hello
 
 the negation in a character class is specified as: "[^expression]"

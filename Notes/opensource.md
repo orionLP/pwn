@@ -7,6 +7,9 @@ The following list contains link to useful web pages:
     <li>to search for exploits in general (there are some posts that can have useful information): https://www.hackerone.com/</li>
     <li>to search for exploitation methods: https://steflan-security.com/linux-privilege-escalation-checklist/</li>
     <li>to search for exploitable suid programs: https://gtfobins.github.io/#mount</li>
+    <li>names of many types of exploits: https://cwe.mitre.org/data/index.html</li>
+    <li>years of experience of other people: https://notes.m4lwhere.org/offensive/web-exploits/enumeration
+    </li>
 </ol>
 
 Programsthat are useful in searching for vulnerablities:
