@@ -9423,3 +9423,5 @@
 2023/02/11 16:31:44 Get "http://stocker.htb:22": net/http: HTTP/1.x transport connection broken: malformed HTTP status code "Ubuntu-4ubuntu0.5"
 2023/02/11 16:32:14 Error while opening default config file: open /home/oriol/.ffufrc: no such file or directory
 2023/02/11 16:33:21 Error while opening default config file: open /home/oriol/.ffufrc: no such file or directory
+2023/02/11 19:24:40 Error while opening default config file: open /home/oriol/.ffufrc: no such file or directory
+2023/02/11 19:24:40 Get "http://dns.stocker.htb": dial tcp: lookup dns.stocker.htb on 127.0.0.53:53: no such host
