@@ -119,3 +119,6 @@ remember salts go hash:salt independently of the mode
 
  hashcat -m 500 -a 0 '$1$🧂llol$DQpmdvnb7EeuO6UaqRItf.'  ../SecLists/Passwords/Leaked-Databases/rockyou.txt --show
 $1$🧂llol$DQpmdvnb7EeuO6UaqRItf.:ilovecody112235!
+
+
+## Sorry, but this machine ends here as i did not have time to take it further
