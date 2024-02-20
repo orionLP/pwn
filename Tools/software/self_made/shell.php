@@ -21,7 +21,7 @@
     <h1>The Simple Shell</h1>
     <hr>
     <p>The Simple Shell will read commands, execute them and then give back the results. Enjoy :).
-        <br> Disclaimer: This shell is only meant for ctfs, i am not responsible for any misuse of this shell.
+    
     </p>
 
     <form method="post">
