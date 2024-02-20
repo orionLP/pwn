@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nmap walkthrough</title>
+    </head>
+    <body>
+        <h1>Nmap room</h1>
+        <hr>
+        <h2>Question 1</h2>
+        <p>
+            Given the following intentions, which switches do we have to use?
+        </p>
+
+        <ul>
+            <li>
+                <p>
+                    Enable sys scan: -sS    
+                </p>
+            </li>
+            <li>
+                <p>
+                    Perform an udp scan: -sU
+                </p>
+            </li>
+            <li>
+                <p>
+                    Detect the user's operating system: -O
+                </p>
+            </li>
+            <li>
+                <p>
+                    The versions of the services running on the target: -sV
+                </p>
+            </li>
+            <li>
+                <p>
+                    To change verbosity level: -v for level 1, -vv for level 2
+                </p>
+            </li>
+            <li>
+                <p>
+                    Save results in a greapable format: -oG
+                </p>
+            </li>
+            <li>
+                <p>
+                    Aggressive mode enables OS detection, version detection, script scanning, and traceroute: -A
+                </p>
+            </li>
+            <li>
+                <p>
+                    Nmap can reduce the time it takes to do scans using the template option: -T0-5 
+                    <br>
+                    <strong> 
+                        Note: The number after the T is the speed, 0 is the slowest and 5 is the fastest, and 
+                        usually, detection is easier when using high numbers 
+                    </strong>
+                </p>
+            </li>
+            <li>
+                <p>
+                    To scan a range of ports use the: -p <i>range</i>
+                </p>
+            </li>
+            <li>
+                <p>
+                    To activate a script from the nmap scripting library: --script=<i>script_name</i>
+                </p>
+            </li>
+        </ul>
+
+        <h1>
+            Port states
+        </h1>
+
+        <ul>
+            <li>
+                <p>
+                    <strong>Open</strong>: The port is open and is accepting connections. (this means a SYN-ACK packet was recieved)
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Closed</strong>: The port is closed and is not accepting connections. (this means a RST packet was recieved)
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Filtered</strong>: The port is filtered and is dropping packets. (this means no response was recieved, most likely 
+                    due to a firewall dropping the packets).
+                </p>
+            </li>
+        </ul>
+        
+        <h1>
+            Types of scans in nmap
+        </h1>
+
+        <ul>
+            <li>
+                <p>
+                    <strong>TCP scan</strong>:
+                    The scan works by initiating a TCP handshake sending a sync packet to the target. If the target responds with a sync-ack packet, the port is open.
+                    If instead the target responds with a RST packet, the port is closed. If there is no response, we assume the target is dropping the packets, probably 
+                    due to firewall rules or the port is filtered. This is the most easy to defend against, since the target only needs respond with a RST packet to 
+                    seem like a closed port. It is also worth noting that in this scan, we will send an ack packet.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>SYN scan</strong>:
+                    This is the same as a TCP scan, but instead of sending an ACK packet, we will send back a 
+                    RST packet, so we do not waste time, and the server does not send more SYN-ACK packets 
+                    trying to reach us. Some applications will not log connections until they recieve an ACK packet,
+                    but it might break unstable applications.
+                </p>
+        </ul>
+    </body>
+</html>
