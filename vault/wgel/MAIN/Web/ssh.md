@@ -1,0 +1,1 @@
+This is indeed the private key to ssh into the host. The file is in http://10.10.61.71/sitemap/.ssh/id_rsa.
