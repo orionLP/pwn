@@ -1,4 +1,0 @@
-## METADATA
-
-# IMAGE METADATA
-

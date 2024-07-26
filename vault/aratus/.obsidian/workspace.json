@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "daac651eee3c7643",
+    "type": "split",
+    "children": [
+      {
+        "id": "43ee6f676587dee2",
+        "type": "tabs",
+        "dimension": 50,
+        "children": [
+          {
+            "id": "5205052be0496637",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MAIN/NMAP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "d3acf329a812c9da",
+        "type": "tabs",
+        "dimension": 50,
+        "children": [
+          {
+            "id": "555780816e9a68ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MAIN/computer/PROCESS GATHERING.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fdace6cc1068b826",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6e779dca5958ea2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "14284dd16ef92747",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7dd6e32685988a0f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6437bab8debd6b6d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "abf96fb7834ef0ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd46d9ae84ef630c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "deb02fad1c05d230",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "MAIN/computer/PROCESS GATHERING.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "24f98702f9b88ccc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "MAIN/computer/PROCESS GATHERING.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b4063cbb26b7e939",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "eaaed278c592124d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "MAIN/computer/PROCESS GATHERING.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "555780816e9a68ff",
+  "lastOpenFiles": [
+    "MAIN/computer/COMPUTER INFORMATION.md",
+    "MAIN/computer/simeon.md",
+    "MAIN/webpage/PORT 80.md",
+    "MAIN/webpage/simeon's page.md",
+    "MAIN/PORT 21.md",
+    "MAIN/NMAP.md",
+    "MAIN/computer/theodore.md",
+    "opt.md",
+    "root.md",
+    "MAIN/computer/PROCESS GATHERING.md",
+    "MAIN/samba/message-to-simeon.txt.md",
+    "MAIN/computer",
+    "MAIN/PORT 22.md",
+    "MAIN/samba/PORT 139.md",
+    "MAIN/samba/bashrc.md",
+    "MAIN/users/GENERAL_USERS.md",
+    "MAIN/samba/bash_profile.md",
+    "MAIN/samba/bash_logout.md",
+    "MAIN/webpage/Untitled.md",
+    "MAIN/webpage",
+    "MAIN/users",
+    "MAIN/samba",
+    "MAIN"
+  ]
+}

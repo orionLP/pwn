@@ -1,0 +1,5 @@
+```txt
+# ~/.bash_logout
+
+
+```

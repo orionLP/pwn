@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "83a24044a903ed82",
+    "type": "split",
+    "children": [
+      {
+        "id": "58987fb8f0d4c5fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b0ce6258acce420",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer/hudson.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "435bbd1ad33ea8ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "exposed/PORT 22.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2226ad68b946466",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "exposed/PORT 6048.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c3bc966eca00910e",
+    "type": "split",
+    "children": [
+      {
+        "id": "ec44f2630e31b0c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e16b4236b3ac2cbc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4a58f5bcd6e9b472",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ecb36cd7ea08c573",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c28cf552cb8c6079",
+    "type": "split",
+    "children": [
+      {
+        "id": "54dd23d07dcdf75a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1954434736002e8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "exposed/PORT 6048.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "789d4a70f209c29a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "exposed/PORT 6048.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f8d8bcb23a668e88",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "77377bab1b097063",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "exposed/PORT 6048.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e2226ad68b946466",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "exposed/PORT 6048.md",
+    "2024-06-29.md",
+    "computer/hudson.md",
+    "computer/carlos.md",
+    "exposed/PORT 8000.md",
+    "computer",
+    "exposed/PORT 22.md",
+    "exposed",
+    "NMAP.md"
+  ]
+}

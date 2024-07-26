@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "9d53dd22abb83ba1",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d8d3d05f5dde592",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a087732bea57eb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hatter.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c6415878f49d5ad4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1985aecf6c9dea77",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b5b57f6e700b8e91",
+    "type": "split",
+    "children": [
+      {
+        "id": "135e3d1e1104620d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a712f904c6c39295",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f28fa639c5530006",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "756675c0bf7fd0ad",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "08fc18aac7858faa",
+    "type": "split",
+    "children": [
+      {
+        "id": "739fc8fe29ce614d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf7b273db2e237f3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "hatter.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "907dda4785a7420c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "hatter.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c4a9f736c223057c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ac7bc6691791492c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "hatter.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1985aecf6c9dea77",
+  "lastOpenFiles": [
+    "hatter.md",
+    "rabbit.md",
+    "PORT 22.md",
+    "alice.md",
+    "PORT 80.md",
+    "NMAP.md"
+  ]
+}

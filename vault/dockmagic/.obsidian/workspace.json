@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "daa471f0ec5bd639",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5c332afc1827e13",
+        "type": "tabs",
+        "dimension": 48.75466998754669,
+        "children": [
+          {
+            "id": "1391e3b94f53f1a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMPUTER_ithink.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "062ceed488ab8311",
+        "type": "tabs",
+        "dimension": 51.24533001245331,
+        "children": [
+          {
+            "id": "ebc8653310cf5604",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b2d5ad3435597c8a",
+    "type": "split",
+    "children": [
+      {
+        "id": "124cb054be64ff43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "adca6016173ea95a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5eaae1ee90d6956e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "089e9a8dbcc6b285",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "606fb5010ac913c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c2975463b3e2636",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6853b1f3f7085206",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "COMPUTER_ithink.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "27835f4cec68f712",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "COMPUTER_ithink.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "86a6adfb5eb92aa9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b17f943c6d560510",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "COMPUTER_ithink.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ebc8653310cf5604",
+  "lastOpenFiles": [
+    "COMPUTER_ithink.md",
+    "root in contianer.md",
+    "new_password.md",
+    "backup.md",
+    "site.md",
+    "sign_in.md",
+    "NMAP.md",
+    "sign_up.md",
+    "PORT 80.md",
+    "site/users/sign_up.md",
+    "site/users/sign_in.md",
+    "site/users",
+    "site"
+  ]
+}

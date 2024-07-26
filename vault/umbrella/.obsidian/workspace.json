@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "1be9c9b064da37db",
+    "type": "split",
+    "children": [
+      {
+        "id": "e43d92d2c2ceb9f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "523f70dac866389f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "container.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "3af744ac98f0f0d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aaa206075ff6f6eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MAIN/Website/PORT 8080.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f792f88384348de0",
+    "type": "split",
+    "children": [
+      {
+        "id": "74588dfb30da74b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39a29c6aecb1fb67",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "172a0fff9002188d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "429ad32445978f2d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 213.5
+  },
+  "right": {
+    "id": "53153bb66880277d",
+    "type": "split",
+    "children": [
+      {
+        "id": "94aa33d225211e19",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8bc930351009a950",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "container.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3a1c10f25ee3da05",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "container.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d3664691b4262423",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7099b0a5164fd825",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "container.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "523f70dac866389f",
+  "lastOpenFiles": [
+    "MAIN/Website/PORT 8080.md",
+    "container.md",
+    "MAIN/PORT 22.md",
+    "MAIN/NMAP.md",
+    "MAIN/Mysql/PORT 3306.md",
+    "MAIN/Mysql/HASHCAT.md",
+    "MAIN/Docker Registry/PORT 5000.md",
+    "MAIN/Mysql",
+    "MAIN/Docker Registry",
+    "MAIN/Website",
+    "MAIN",
+    "NMA.md"
+  ]
+}
