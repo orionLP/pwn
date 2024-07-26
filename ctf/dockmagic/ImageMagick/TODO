@@ -1,0 +1,7 @@
+1. Implement Basic Authentication with avatar support (use MiniMagick for Image Processing ) - DONE
+2. Implement a temporary Front page with some dummy content. - DONE
+3. Implement minimum viable product. - IN PROGRESS
+
+serious (TO BE DONE):
+1. Revoke user's ssh keys.
+2. Switch from minimagick to vips due to recent discovery of security vulnerabilities in ImageMagick.

@@ -1,0 +1,33 @@
+<div class="d-flex flex-column-reverse flex-md-row">
+      <div class="container box-1 mt-auto mb-auto">
+        <div class="container mt-5">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h1 class="display-4">Hi! Welcome to the EmpMan</h1>
+      <h3 class="mt-3">The Upcoming revolutionary Employee Management Tool</h3>
+      <p class="lead">This is my first attempt at creating a website, so please be gentle with your feedback. This app is designed to help you manage your employees in a fun and creative way.</p>
+      <% if current_user %>
+      <%= image_tag(current_user.avatar_thumbnail) if current_user.avatar.attached? %>
+      <% end %>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-12 col-md-4 text-center mb-5">
+      <h4>The employee management app that lets you have some fun with your employees.</h4>
+      <p>This app lets you monitor their activity, assign them challenges, and send them jokes. The app that makes your employees laugh and sweat.</p>
+    </div>
+    <div class="col-12 col-md-4 text-center mb-5">
+      <h4>The employee management app that adds some variety to your workplace.</h4>
+      <p>This app randomly swaps your employees’ tasks, deadlines, and bonuses. It also sends them surprises, puzzles, and riddles. The app that makes your employees curious and nervous.</p>
+    </div>
+    <div class="col-12 col-md-4 text-center mb-5">
+      <h4>The employee management app that improves your relationship with your employees.</h4>
+      <p>This app records your employees’ conversations and analyzes their feelings. It then gives you tips on how to compliment, tease, and flirt with them. The app that makes your employees blush and smile.</p>
+    </div>
+  </div>
+</div>
+    </div>
+      <div class="box-2">
+        <img src="<%= asset_path 'youngdumb.png' %>" alt="" />
+      </div>
+    </div>

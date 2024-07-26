@@ -1,0 +1,45 @@
+#!/bin/bash
+
+function colored_cow() {
+    if which cowsay > /dev/null;
+    then
+        cowsay -t "$1" | lolcat
+    else 
+        colored_output $1
+    fi
+    return 0
+}
+
+function colored_output() {
+    if which lolcat > /dev/null;
+    then 
+        echo "$1" | lolcat
+    else
+        echo "$1"
+    fi
+    return 0
+}
+
+
+MESSAGE="Welcome to this magic ennumerator";
+
+colored_cow "$MESSAGE"
+
+echo "Starting dump..."
+
+echo "Printing system information"
+uname -a 
+
+echo "Printing filesystem misconfigurations"
+
+user=$(id -u)
+
+echo "Files executable by the user which might be tasty for an inputed user and folder"
+read name
+read path
+echo "Executable files from $name and $path"
+find $path -executable -user $name 2>/dev/null
+echo "Readable files from $name and $path"
+find $path -readable -user $name 2>/dev/null
+echo "Writable files from $name and $path"
+find $path -writable -user $name 2>/dev/null

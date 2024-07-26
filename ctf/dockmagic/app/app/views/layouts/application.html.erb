@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EmpMan</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+  <%= stylesheet_link_tag 'styles', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">EmpMan</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact Me</a>
+        </li>
+        <li class="nav-item">
+        </li>
+        <% if current_user %>
+        <li class="nav-item">
+            <span class="nav-link">
+              <%= button_to "Sign Out", destroy_user_session_path, :method => :delete %>
+            </span>
+        </li>
+        <li class="nav-item">
+            <span class="nav-link">
+              <%= link_to "Edit Account", edit_user_registration_path %>
+            </span>
+        </li>
+        <% else %>
+        <li class="nav-item">
+            <span class="nav-link">
+              <%= link_to "Create Account", new_user_registration_path %>
+            </span>
+        </li>
+        <li class="nav-item">
+            <span class="nav-link">
+              <%= link_to "Sign In", new_user_session_path %>
+            </span>
+        </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <% if notice %>
+  <p class="alert alert-success"><%= notice %></p>
+<% end %>
+<% if alert %>
+  <p class="alert alert-danger"><%= alert %></p>
+<% end %>
+    <%= yield %>
+<footer class="footer bg-dark pt-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h5 class="text-white">EmpMan | DeezBytez's Little website for managing employees.</h5>
+      </div>
+      <div class="col-md-6">
+        <div class="footer-links float-md-right mt-3 mt-md-0">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookies Policy</a>
+          <a href="#">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-2">
+      <div class="col-md-12">
+        <p class="text-muted">Disclaimer: Legal information is not legal advice, read the disclaimer. The information provided on this site is not legal advice, so I decided to copy half of this just like people do with lorem lipsum, just for now. Imma go show people i can code hehe.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+  </body>
+</html>

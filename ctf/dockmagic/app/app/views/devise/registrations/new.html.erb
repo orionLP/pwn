@@ -1,0 +1,68 @@
+<div class="d-flex align-items-center" style="margin-top: 7vw;margin-bottom:7vw">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title">Sign up</h2>
+            <% if resource.errors.any? %>
+              <div id="error_explanation">
+                <h2><%= pluralize(resource.errors.count, "error") %> prohibited this user from being saved:</h2>
+                <ul>
+                  <% resource.errors.full_messages.each do |msg| %>
+                    <li><%= msg %></li>
+                  <% end %>
+                </ul>
+              </div>
+            <% end %>
+            
+            <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: {class: "form"}, data: {turbo: false}) do |f| %>
+<% if resource.errors.any? %>
+  <div class="alert alert-danger">
+    <ul>
+      <% resource.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
+            <div class="form-group">
+              <%= f.label :avatar %> </br>
+              <% if resource.avatar.attached? %>
+                <%= image_tag(resource.avatar.variant(resize_to_fill: [100, 100]), class: "img-fluid rounded-circle mb-3") %>
+              <% else %>  
+                <%= image_tag("default_profile.png", class: "img-fluid rounded-circle mb-3", style: "max-width: 100px; max-height: 100px;") %>
+              <% end %>
+              <%= f.file_field :avatar %>
+            </div>
+
+              <div class="form-group">
+                <%= f.label :email %>
+                <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control" %>
+              </div>
+
+              <div class="form-group">
+                <%= f.label :password %>
+                <% if @minimum_password_length %>
+                  <em>(<%= @minimum_password_length %> characters minimum)</em>
+                <% end %>
+                <%= f.password_field :password, autocomplete: "new-password", class: "form-control" %>
+              </div>
+
+              <div class="form-group">
+                <%= f.label :password_confirmation %>
+                <%= f.password_field :password_confirmation, autocomplete: "new-password", class: "form-control" %>
+              </div>
+
+              <div class="form-group mt-4">
+                <%= f.submit "Sign up", class: "btn btn-primary" %>
+              </div>
+            <% end %>
+
+            <%= render "devise/shared/links" %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
