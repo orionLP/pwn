@@ -1,6 +1,0 @@
-# IGNITE
-
-## reverse shell
-
-```bash
-```
