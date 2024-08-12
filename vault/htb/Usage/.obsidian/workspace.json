@@ -1,22 +1,38 @@
 {
   "main": {
-    "id": "3c027fb38e456f8a",
+    "id": "d78e9f32310d591d",
     "type": "split",
     "children": [
       {
-        "id": "282cd5bd399be070",
+        "id": "e8ac307ddf5e6b7f",
         "type": "tabs",
+        "dimension": 48.53917662682604,
         "children": [
           {
-            "id": "7882f5b83e10e236",
+            "id": "d0983f76c41caa13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tryhackme/athena/MAIN/athena.md",
+                "file": "computer/xander/usage_management.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "88d1513b7144fb0d",
+        "type": "tabs",
+        "dimension": 51.46082337317396,
+        "children": [
+          {
+            "id": "24ae495d94a3e1c9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -25,15 +41,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7b8b12dc98acc81d",
+    "id": "2fff31789845a8a1",
     "type": "split",
     "children": [
       {
-        "id": "0d44122cbe583ae6",
+        "id": "54dc1c97a658e865",
         "type": "tabs",
         "children": [
           {
-            "id": "976f5bc792632c68",
+            "id": "3ba82e209ecddc55",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +59,7 @@
             }
           },
           {
-            "id": "4417af7de7a75e77",
+            "id": "1747b3749051a482",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +74,7 @@
             }
           },
           {
-            "id": "fbb5cef444217fdf",
+            "id": "5a65ef115bd767c0",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +88,19 @@
     "width": 300
   },
   "right": {
-    "id": "3990b8b6603d2269",
+    "id": "d20385d7042920e0",
     "type": "split",
     "children": [
       {
-        "id": "a8d5a17434ab0b70",
+        "id": "90bbd09ca96aae0f",
         "type": "tabs",
         "children": [
           {
-            "id": "3361a8d8c0d5adfa",
+            "id": "df7f9812e6034306",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tryhackme/athena/MAIN/athena.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +112,18 @@
             }
           },
           {
-            "id": "94240e118bdab070",
+            "id": "b05702ebc9eb5599",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tryhackme/athena/MAIN/athena.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "828cce84606fa7b1",
+            "id": "f0ed49012202cd18",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,13 +134,11 @@
             }
           },
           {
-            "id": "6584ceed059bc247",
+            "id": "f274697e5f136f11",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "tryhackme/athena/MAIN/athena.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,18 +158,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "976f5bc792632c68",
+  "active": "24ae495d94a3e1c9",
   "lastOpenFiles": [
-    "tryhackme/Burg3rBytes/Welcome.md",
-    "tryhackme/Burg3rBytes",
-    "tryhackme/athena/MAIN/Computer/remote shell.md",
-    "tryhackme/athena/MAIN/Computer/mynote.txt.md",
-    "tryhackme/kitty/PORT 80.md",
-    "tryhackme/kitty/NMAP.md",
-    "tryhackme/kitty/log_checker.md",
-    "tryhackme/kitty/kitty_user.md",
-    "tryhackme/kitty/KITTY.md",
-    "kitty/Welcome.md",
-    "kitty"
+    "computer/xander/usage_management.md",
+    "computer/xander/xander.md",
+    "computer/dash/dash.md",
+    "computer/credentials.md",
+    "computer/xander",
+    "computer/dash/monit.md",
+    "computer/dash/previous applications.md",
+    "computer/databases/usage_blog.md",
+    "website/database.md",
+    "website/main site.md",
+    "website/crack.md",
+    "computer/databases",
+    "computer/dash",
+    "images/Screenshot from 2024-08-09 18-52-00.png",
+    "website/PORT 80.md",
+    "images/Screenshot from 2024-08-08 10-19-52.png",
+    "images/Screenshot from 2024-08-08 10-18-29.png",
+    "images/Screenshot from 2024-08-08 10-05-43.png",
+    "images/Screenshot from 2024-08-08 09-53-33.png",
+    "images/Screenshot from 2024-08-08 09-33-26.png",
+    "computer",
+    "website/admin login site.md",
+    "shell.md",
+    "NMAP.md",
+    "Screenshot from 2024-08-09 18-49-55.png",
+    "Screenshot from 2023-10-27 20-17-02.png",
+    "website",
+    "images"
   ]
 }
