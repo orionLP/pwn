@@ -1,0 +1,1 @@
+After 5 minutes of thinking i tried using the default username and password -> turns out this works : we can access as [[admin]]

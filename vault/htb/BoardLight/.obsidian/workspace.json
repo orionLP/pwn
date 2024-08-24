@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "b1a26e8778c6f88c",
+    "type": "split",
+    "children": [
+      {
+        "id": "83a41be76481847d",
+        "type": "tabs",
+        "dimension": 54.31606905710491,
+        "children": [
+          {
+            "id": "f14e2f716f4bcf23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer/root.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "b85d893f773c557d",
+        "type": "tabs",
+        "dimension": 45.68393094289508,
+        "children": [
+          {
+            "id": "d09b1bb670e4ead9",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Operation Canvas.canvas",
+                "viewState": {
+                  "x": 709.0728581651136,
+                  "y": 2502.773186876757,
+                  "zoom": -4
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eef9af8aebe89896",
+    "type": "split",
+    "children": [
+      {
+        "id": "42bbbe5fe36f1135",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0c42067793cebf0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "32c52a2f6146943c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "06929de9cd8d473c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c15f0b46fe06897b",
+    "type": "split",
+    "children": [
+      {
+        "id": "380f05ebd66c4666",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cafc3b013f125b32",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "computer/root.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "61c12daf28efee59",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "computer/root.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3e9cf019f5dae97d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d7570f6eb350adce",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "computer/root.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f14e2f716f4bcf23",
+  "lastOpenFiles": [
+    "computer/larissa/suid bit.md",
+    "computer/larissa/scripts.md",
+    "computer/larissa/larissa.md",
+    "computer/www-data/website code.md",
+    "computer/www-data/database.md",
+    "computer/www-data/www-data.md",
+    "webpage/login page/admin.md",
+    "webpage/login page/login.md",
+    "webpage/login page/login page.md",
+    "webpage/login page/forgot password.md",
+    "webpage/login page/search for cve.md",
+    "webpage/login page/login nmap scripts.md",
+    "webpage/subdomain enumeration.md",
+    "webpage/PORT 80.md",
+    "webpage/main page/main page nmap scripts.md",
+    "webpage/main page/website code review.md",
+    "webpage/main page/website scan.md",
+    "NMAP.md",
+    "Operation Canvas.canvas",
+    "computer/root.md",
+    "computer/PORT 22.md",
+    "computer/larissa",
+    "computer/www-data",
+    "computer",
+    "webpage/login page/fuzz of login page.md",
+    "login nmap scans.md",
+    "webpage/main page/fuzz portafolio.php.md",
+    "webpage/login page",
+    "webpage/main page",
+    "webpage"
+  ]
+}
