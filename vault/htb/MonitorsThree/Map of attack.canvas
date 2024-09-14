@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"9b20d6817ef7c781","type":"file","file":"web server/PORT 80.md","x":80,"y":200,"width":400,"height":400},
+		{"id":"d148057bbcf3b517","type":"file","file":"web server/error based sql injection.md","x":-300,"y":2080,"width":480,"height":720},
+		{"id":"59378ee629615ed3","type":"file","file":"web server/forgot password.md","x":-320,"y":1120,"width":520,"height":560},
+		{"id":"428225df2ace9ac6","type":"file","file":"web server/login.md","x":1200,"y":2240,"width":400,"height":400},
+		{"id":"870b400ffc61c254","type":"file","file":"web server/dashboard.md","x":1200,"y":3040,"width":400,"height":400},
+		{"id":"abf4774d0c82afb6","type":"file","file":"web server/cacti.md","x":2240,"y":2240,"width":400,"height":400},
+		{"id":"a103ac3242231d60","type":"file","file":"computer/computer.md","x":3280,"y":2240,"width":400,"height":400},
+		{"id":"7cf818df386ba284","type":"file","file":"computer/marcus.md","x":4240,"y":2240,"width":400,"height":400},
+		{"id":"a1c01e37e70d460e","type":"file","file":"NMAP.md","x":2040,"y":-400,"width":400,"height":400},
+		{"id":"6a8d800abf1d28a7","type":"file","file":"computer/PORT 22.md","x":4240,"y":320,"width":400,"height":400},
+		{"id":"affa5f9c0b824741","type":"file","file":"computer/duplicati.md","x":4240,"y":2960,"width":400,"height":400},
+		{"id":"99af6f93c17f1fca","x":4240,"y":3680,"width":400,"height":400,"type":"file","file":"computer/root.md"}
+	],
+	"edges":[
+		{"id":"25bd292c64ba0876","fromNode":"a1c01e37e70d460e","fromSide":"bottom","toNode":"9b20d6817ef7c781","toSide":"top"},
+		{"id":"36abfd13742caf27","fromNode":"a1c01e37e70d460e","fromSide":"bottom","toNode":"6a8d800abf1d28a7","toSide":"top"},
+		{"id":"23488b6f221380c1","fromNode":"9b20d6817ef7c781","fromSide":"bottom","toNode":"59378ee629615ed3","toSide":"top"},
+		{"id":"645236de09268412","fromNode":"9b20d6817ef7c781","fromSide":"bottom","toNode":"428225df2ace9ac6","toSide":"top"},
+		{"id":"da4f460dc4109012","fromNode":"59378ee629615ed3","fromSide":"bottom","toNode":"d148057bbcf3b517","toSide":"top"},
+		{"id":"94a1511fab90b1e3","fromNode":"d148057bbcf3b517","fromSide":"right","toNode":"428225df2ace9ac6","toSide":"left"},
+		{"id":"8fbc361955eb4750","fromNode":"428225df2ace9ac6","fromSide":"bottom","toNode":"870b400ffc61c254","toSide":"top"},
+		{"id":"b84d6a84aa7fca52","fromNode":"9b20d6817ef7c781","fromSide":"bottom","toNode":"abf4774d0c82afb6","toSide":"top"},
+		{"id":"7a63c7494f3df29d","fromNode":"428225df2ace9ac6","fromSide":"right","toNode":"abf4774d0c82afb6","toSide":"left"},
+		{"id":"468026d5ec57f3ee","fromNode":"abf4774d0c82afb6","fromSide":"right","toNode":"a103ac3242231d60","toSide":"left"},
+		{"id":"9761caa3b03a585b","fromNode":"6a8d800abf1d28a7","fromSide":"bottom","toNode":"7cf818df386ba284","toSide":"top"},
+		{"id":"5971aa5c8e7ac397","fromNode":"a103ac3242231d60","fromSide":"right","toNode":"7cf818df386ba284","toSide":"left"},
+		{"id":"41f825cb7e1ad3cb","fromNode":"7cf818df386ba284","fromSide":"bottom","toNode":"affa5f9c0b824741","toSide":"top"},
+		{"id":"3b691f3403f235f0","fromNode":"affa5f9c0b824741","fromSide":"bottom","toNode":"99af6f93c17f1fca","toSide":"top"}
+	]
+}

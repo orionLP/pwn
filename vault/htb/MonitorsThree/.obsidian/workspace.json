@@ -1,43 +1,41 @@
 {
   "main": {
-    "id": "b1a26e8778c6f88c",
+    "id": "90b717822377ae5f",
     "type": "split",
     "children": [
       {
-        "id": "83a41be76481847d",
+        "id": "2ca2e700fd994311",
         "type": "tabs",
-        "dimension": 54.31606905710491,
+        "dimension": 65.40504648074369,
         "children": [
           {
-            "id": "f14e2f716f4bcf23",
+            "id": "d9b400ec059f5090",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "computer/root.md",
-                "mode": "source",
-                "source": false
+                "file": "images/Screenshot from 2024-09-10 20-19-13.png"
               }
             }
           }
         ]
       },
       {
-        "id": "b85d893f773c557d",
+        "id": "c48556a8bcb2c40c",
         "type": "tabs",
-        "dimension": 45.68393094289509,
+        "dimension": 34.59495351925631,
         "children": [
           {
-            "id": "d09b1bb670e4ead9",
+            "id": "27552e4046a03f16",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Operation Canvas.canvas",
+                "file": "Map of attack.canvas",
                 "viewState": {
-                  "x": 3342.832858165104,
-                  "y": 5612.693186876754,
-                  "zoom": -4
+                  "x": -292.90359267079407,
+                  "y": 830.5026294820719,
+                  "zoom": -2.4878880646865253
                 }
               }
             }
@@ -48,15 +46,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "eef9af8aebe89896",
+    "id": "4217a743ca3c1024",
     "type": "split",
     "children": [
       {
-        "id": "42bbbe5fe36f1135",
+        "id": "c4908c51e9151e39",
         "type": "tabs",
         "children": [
           {
-            "id": "b0c42067793cebf0",
+            "id": "d584fdb604a9773b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -66,7 +64,7 @@
             }
           },
           {
-            "id": "32c52a2f6146943c",
+            "id": "c59e8c1baccc7f9d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -81,7 +79,7 @@
             }
           },
           {
-            "id": "06929de9cd8d473c",
+            "id": "09c42fdec0e3e487",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -95,20 +93,20 @@
     "width": 300
   },
   "right": {
-    "id": "c15f0b46fe06897b",
+    "id": "b9f4f57b1225fc39",
     "type": "split",
     "children": [
       {
-        "id": "380f05ebd66c4666",
+        "id": "c1eae496418a4797",
         "type": "tabs",
         "children": [
           {
-            "id": "cafc3b013f125b32",
+            "id": "77beab715e43908c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operation Canvas.canvas",
+                "file": "images/Screenshot from 2024-09-10 20-19-13.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,19 +118,19 @@
             }
           },
           {
-            "id": "61c12daf28efee59",
+            "id": "f5959479ebba7c6f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operation Canvas.canvas",
+                "file": "images/Screenshot from 2024-09-10 20-19-13.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "3e9cf019f5dae97d",
+            "id": "65a810d7938f7f41",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -143,12 +141,12 @@
             }
           },
           {
-            "id": "d7570f6eb350adce",
+            "id": "fd669e1ddb7accf7",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operation Canvas.canvas"
+                "file": "images/Screenshot from 2024-09-10 20-19-13.png"
               }
             }
           }
@@ -169,37 +167,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d09b1bb670e4ead9",
+  "active": "d9b400ec059f5090",
   "lastOpenFiles": [
     "computer/root.md",
-    "computer/larissa/suid bit.md",
-    "computer/larissa/scripts.md",
-    "computer/larissa/larissa.md",
-    "computer/www-data/website code.md",
-    "computer/www-data/database.md",
-    "computer/www-data/www-data.md",
-    "webpage/login page/admin.md",
-    "webpage/login page/login.md",
-    "webpage/login page/login page.md",
-    "webpage/login page/forgot password.md",
-    "webpage/login page/search for cve.md",
-    "webpage/login page/login nmap scripts.md",
-    "webpage/subdomain enumeration.md",
-    "webpage/PORT 80.md",
-    "webpage/main page/main page nmap scripts.md",
-    "webpage/main page/website code review.md",
-    "webpage/main page/website scan.md",
-    "NMAP.md",
-    "Operation Canvas.canvas",
+    "computer/duplicati.md",
+    "computer/marcus.md",
     "computer/PORT 22.md",
-    "computer/larissa",
-    "computer/www-data",
+    "computer/computer.md",
+    "web server/cacti.md",
+    "web server/login.md",
+    "web server/PORT 80.md",
+    "web server/error based sql injection.md",
+    "web server/forgot password.md",
+    "Map of attack.canvas",
+    "web server/sqlmap.md",
+    "NMAP.md",
+    "web server/dashboard.md",
     "computer",
-    "webpage/login page/fuzz of login page.md",
-    "login nmap scans.md",
-    "webpage/main page/fuzz portafolio.php.md",
-    "webpage/login page",
-    "webpage/main page",
-    "webpage"
+    "images",
+    "images/Screenshot from 2024-09-10 20-19-13.png",
+    "web server"
   ]
 }
