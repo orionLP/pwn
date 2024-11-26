@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "bc7706006d69e74d",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e87b98943763768",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5dad2a804c8e864",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer/root.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "root"
+            }
+          }
+        ]
+      },
+      {
+        "id": "df08db15b29d7dd7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84d55e66faae34d5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f6e4949f08523443",
+    "type": "split",
+    "children": [
+      {
+        "id": "e12408a4bbd9cbe7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "17afcd714488334d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2ca3782b69b26388",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a98226d6dfc2112f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "c01e5ae51f099a60",
+    "type": "split",
+    "children": [
+      {
+        "id": "598545780a060c54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eec5a3334e003429",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "PORT 3000.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for PORT 3000"
+            }
+          },
+          {
+            "id": "150c4425e22ec1cb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "PORT 3000.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from PORT 3000"
+            }
+          },
+          {
+            "id": "9b4012f43e9e3251",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "23eef14a3a927fd2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "PORT 3000.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of PORT 3000"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "84d55e66faae34d5",
+  "lastOpenFiles": [
+    "webservice/PORT 3000.md",
+    "computer/root.md",
+    "computer/help.md",
+    "map.canvas",
+    "computer/PORT 22.md",
+    "scans/NMAP.md",
+    "webpage/SQL injection.md",
+    "computer",
+    "webpage/helpme.md",
+    "webpage/support webpage.md",
+    "webpage/PORT 80.md",
+    "2024-11-24.md",
+    "scans",
+    "webservice",
+    "webpage"
+  ]
+}

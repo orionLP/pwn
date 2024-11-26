@@ -12,9 +12,11 @@
             "id": "d9b400ec059f5090",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "images/Screenshot from 2024-09-10 20-19-13.png"
+                "file": "web server/cacti.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -106,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "images/Screenshot from 2024-09-10 20-19-13.png",
+                "file": "web server/cacti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "images/Screenshot from 2024-09-10 20-19-13.png",
+                "file": "web server/cacti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "images/Screenshot from 2024-09-10 20-19-13.png"
+                "file": "web server/cacti.md"
               }
             }
           }
@@ -169,11 +171,13 @@
   },
   "active": "d9b400ec059f5090",
   "lastOpenFiles": [
+    "web server/dashboard.md",
+    "images/Screenshot from 2024-09-10 20-19-13.png",
     "computer/root.md",
-    "computer/duplicati.md",
-    "computer/marcus.md",
     "computer/PORT 22.md",
+    "computer/marcus.md",
     "computer/computer.md",
+    "computer/duplicati.md",
     "web server/cacti.md",
     "web server/login.md",
     "web server/PORT 80.md",
@@ -182,10 +186,8 @@
     "Map of attack.canvas",
     "web server/sqlmap.md",
     "NMAP.md",
-    "web server/dashboard.md",
     "computer",
     "images",
-    "images/Screenshot from 2024-09-10 20-19-13.png",
     "web server"
   ]
 }

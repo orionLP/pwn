@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "23601cbfcf0174fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "e92e6f30878bdbb5",
+        "type": "tabs",
+        "dimension": 86.71978751660026,
+        "children": [
+          {
+            "id": "6ba311b4d55304a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GitBucket/Caption-portal.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "338ae938116c69aa",
+        "type": "tabs",
+        "dimension": 13.280212483399731,
+        "children": [
+          {
+            "id": "8c2900ca8af67d92",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 490.46582366855665,
+                  "y": 2871.471276026399,
+                  "zoom": -2.5
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ad01acfc94642257",
+    "type": "split",
+    "children": [
+      {
+        "id": "d269cf0fadb2fd08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5f4a724ef8a487b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "16f9dde6a6fdb1d5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a1cceb266d7c55a6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bad43c605e1d7688",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d9a1fbe7102f3cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff3988b50d623295",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "GitBucket/Caption-portal.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8e85710b2732b59a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "GitBucket/Caption-portal.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "519fc46b5b8cf3ca",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "12fdbabb54fdf4e6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "GitBucket/Caption-portal.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "6ba311b4d55304a1",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "GitBucket/Caption-portal.md",
+    "GitBucket/gitbucket.md",
+    "GitBucket/PORT 8080.md",
+    "Caption-portal/PORT 80.md",
+    "NMAP.md",
+    "Fuzzes.md",
+    "GitBucket/Logservice.md",
+    "Caption-portal",
+    "GitBucket"
+  ]
+}
