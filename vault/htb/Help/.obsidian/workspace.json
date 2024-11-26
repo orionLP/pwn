@@ -31,10 +31,17 @@
             "id": "84d55e66faae34d5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "canvas",
+              "state": {
+                "file": "map.canvas",
+                "viewState": {
+                  "x": 3807.81006160164,
+                  "y": 6137.6230390143955,
+                  "zoom": -2
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "map"
             }
           }
         ]

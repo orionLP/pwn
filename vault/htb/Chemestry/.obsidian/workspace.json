@@ -48,12 +48,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "web_page/login.md",
+                "file": "computer/root.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "login"
+              "title": "root"
             }
           }
         ]
@@ -197,16 +197,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b0174003c38af5f2",
+  "active": "0bde0aa2dbf3e8f0",
   "lastOpenFiles": [
+    "computer/rosa.md",
+    "computer/RCE.md",
+    "web_page/login.md",
     "web_page/PORT 5000.md",
     "web_page/register.md",
     "web_page/upload.md",
     "web_page/file_upload.md",
-    "web_page/login.md",
-    "root.md",
-    "computer/rosa.md",
-    "computer/RCE.md",
+    "computer/root.md",
     "NMAP.md",
     "computer",
     "web_page"

@@ -2,12 +2,13 @@
 	"nodes":[
 		{"id":"c79a051cc31ecfc8","type":"file","file":"webservice/PORT 3000.md","x":80,"y":1400,"width":1530,"height":2080},
 		{"id":"343fc3442e35e607","type":"file","file":"webpage/PORT 80.md","x":-1840,"y":1400,"width":1320,"height":960},
-		{"id":"544069c20661b1fb","x":2880,"y":8320,"width":400,"height":400,"type":"file","file":"computer/help.md"},
+		{"id":"544069c20661b1fb","type":"file","file":"computer/help.md","x":2880,"y":8320,"width":800,"height":560},
 		{"id":"72b5db749cea73d4","type":"file","file":"webpage/SQL injection.md","x":-360,"y":5760,"width":2800,"height":1960},
 		{"id":"3f164a33ba3aa6ac","type":"file","file":"webpage/helpme.md","x":-360,"y":4960,"width":1040,"height":520},
 		{"id":"d81e2671c0929aaa","type":"file","file":"webpage/support webpage.md","x":-360,"y":4000,"width":1040,"height":760},
 		{"id":"deb505598ddb6347","type":"file","file":"scans/NMAP.md","x":375,"y":-400,"width":940,"height":1160},
-		{"id":"2e69e2f802cf7fc0","x":2840,"y":1400,"width":400,"height":400,"type":"file","file":"computer/PORT 22.md"}
+		{"id":"17e570d009a1339e","x":3080,"y":9120,"width":400,"height":400,"type":"file","file":"computer/root.md"},
+		{"id":"2e69e2f802cf7fc0","type":"file","file":"computer/PORT 22.md","x":3080,"y":1400,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"65522b7a6765950e","fromNode":"deb505598ddb6347","fromSide":"bottom","toNode":"343fc3442e35e607","toSide":"top"},
@@ -18,6 +19,7 @@
 		{"id":"cd5e5acc30540251","fromNode":"3f164a33ba3aa6ac","fromSide":"bottom","toNode":"72b5db749cea73d4","toSide":"top"},
 		{"id":"594b98a719825d1f","fromNode":"deb505598ddb6347","fromSide":"bottom","toNode":"2e69e2f802cf7fc0","toSide":"top"},
 		{"id":"b6a079cf15acaf16","fromNode":"2e69e2f802cf7fc0","fromSide":"bottom","toNode":"544069c20661b1fb","toSide":"top"},
-		{"id":"c6a690971b539519","fromNode":"72b5db749cea73d4","fromSide":"bottom","toNode":"544069c20661b1fb","toSide":"top"}
+		{"id":"c6a690971b539519","fromNode":"72b5db749cea73d4","fromSide":"bottom","toNode":"544069c20661b1fb","toSide":"top"},
+		{"id":"47c16c8401babf93","fromNode":"544069c20661b1fb","fromSide":"bottom","toNode":"17e570d009a1339e","toSide":"top"}
 	]
 }
