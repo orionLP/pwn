@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "43d1e4de1cf99603",
+    "type": "split",
+    "children": [
+      {
+        "id": "42682cede919659a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3dff8c99d1d20c9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "gilfoyle.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "gilfoyle"
+            }
+          }
+        ]
+      },
+      {
+        "id": "0cf0df46e8454098",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b3027ae61adc9a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "web services/attack.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "attack"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d1d0f58818d36d26",
+    "type": "split",
+    "children": [
+      {
+        "id": "935f737ccd51f410",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "929cfa45944ea766",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "fa00f240ff6c17b7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f2bb4c1137e12366",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "11b3fda9755c5f80",
+    "type": "split",
+    "children": [
+      {
+        "id": "f51b92eb40819426",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c6686b2040de7828",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "web services/analysis.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for analysis"
+            }
+          },
+          {
+            "id": "d957f5fe16777c0f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "web services/analysis.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from analysis"
+            }
+          },
+          {
+            "id": "fc262620f5dd94b5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "19c9360a5944afcf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "web services/analysis.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of analysis"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "3dff8c99d1d20c9d",
+  "lastOpenFiles": [
+    "gilfoyle.md",
+    "computer/database.md",
+    "web services/attack.md",
+    "web services/code_review.md",
+    "computer/root????.md",
+    "web services/PORT 443.md",
+    "Untitled",
+    "computer",
+    "web services/REST_api.md",
+    "web services/analysis.md",
+    "web services/enumeration.md",
+    "web services/default_web.md",
+    "web services/Gogs_webpage.md",
+    "probing.md",
+    "Welcome.md",
+    "images/Screenshot from 2024-12-01 18-08-22.png",
+    "images/Screenshot from 2024-12-01 16-34-05.png",
+    "images/Screenshot from 2024-12-01 17-28-03.png",
+    "images",
+    "images/Screenshot from 2024-12-01 16-43-20.png",
+    "scans/NMAP.md",
+    "web services",
+    "scans"
+  ]
+}

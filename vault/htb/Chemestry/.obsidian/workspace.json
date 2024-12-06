@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "web_page/upload.md",
+                "file": "computer/rosa.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "upload"
+              "title": "rosa"
             }
           }
         ],
@@ -197,16 +197,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0bde0aa2dbf3e8f0",
+  "active": "4fba036aec15781d",
   "lastOpenFiles": [
+    "computer/root.md",
     "computer/rosa.md",
-    "computer/RCE.md",
     "web_page/login.md",
     "web_page/PORT 5000.md",
     "web_page/register.md",
     "web_page/upload.md",
+    "computer/RCE.md",
     "web_page/file_upload.md",
-    "computer/root.md",
     "NMAP.md",
     "computer",
     "web_page"
